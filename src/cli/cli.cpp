@@ -2,8 +2,7 @@
 
 CLI::CLI(WebSocketClient& client) : client(client) {}
 
-void CLI::run() 
-{
+void CLI::run() {
     cout << "Type your messages. Use /exit to quit.\n";
 
     string input;
