@@ -13,7 +13,6 @@ TLSContext::TLSContext() {
         cerr << "Failed to create SSL Context" << endl;
     }
 }
-
 TLSContext::~TLSContext() {
     if (ctx) SSL_CTX_free(ctx);
 }
