@@ -16,7 +16,8 @@ int main() {
     client.send_text("test");
     string reply = client.receive_text();
 
-    if (reply.empty()) {
+    if (reply.empty()) 
+    {
         cout << "[TEST FAILED] No reply\n";
         return 1;
     }
