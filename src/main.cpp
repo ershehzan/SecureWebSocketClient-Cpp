@@ -2,7 +2,6 @@
 #include <string>
 #include "websocket/websocket_client.h"
 #include "websocket/tls_context.h"
-
 using namespace std;
 
 int main() {
