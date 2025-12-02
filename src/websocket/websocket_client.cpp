@@ -171,7 +171,7 @@ string WebSocketClient::receive_text_frame() {
         if (on_error) on_error("Server disconnected");
         return "";
     }
-
+ 
     unsigned char b2 = head[1];
     uint64_t len = b2 & 0x7F;
 
