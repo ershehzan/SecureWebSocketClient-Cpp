@@ -144,15 +144,6 @@ Run manually:
 ```powershell
 ./build/Release/websocket_tests.exe
 ```
-
----
-
-## 🎥 **Demo Video (Loom)**
-
-📌 *Include your Loom demo link here.*
-
----
-
 ## 📁 **Project Structure**
 
 ```
