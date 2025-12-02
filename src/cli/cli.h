@@ -6,6 +6,7 @@ using namespace std;
 
 class CLI {
 public:
+
     CLI(WebSocketClient& client);
     void run();
 
