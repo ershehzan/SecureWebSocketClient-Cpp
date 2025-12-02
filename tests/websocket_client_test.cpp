@@ -7,7 +7,8 @@ int main() {
     TLSContext tls;
     WebSocketClient client("echo.websocket.events", "443", "/", tls);
 
-    if (!client.connect()) {
+    if (!client.connect()) 
+    {
         cout << "[TEST FAILED] Cannot connect\n";
         return 1;
     }
