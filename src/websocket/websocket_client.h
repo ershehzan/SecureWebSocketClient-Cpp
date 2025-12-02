@@ -11,10 +11,8 @@ using namespace std;
 
 class WebSocketClient {
 public:
-    WebSocketClient(const string& host,
-                    const string& port,
-                    const string& path,
-                    TLSContext& tls);
+    WebSocketClient(const string& host,const string& port,const string& path,TLSContext& tls);
+
     ~WebSocketClient();
 
     bool connect();
