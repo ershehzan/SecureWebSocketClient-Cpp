@@ -7,7 +7,6 @@ void CLI::run()
     cout << "Type your messages. Use /exit to quit.\n";
 
     string input;
-    
     while (true) {
         cout << "> ";
         getline(cin, input);
