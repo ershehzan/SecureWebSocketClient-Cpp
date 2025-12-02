@@ -7,7 +7,7 @@ using namespace std;
 class TLSContext {
 public:
     TLSContext();
-    ~TLSContext();
+   ~TLSContext();
     SSL_CTX* get() const;
 
 private:
