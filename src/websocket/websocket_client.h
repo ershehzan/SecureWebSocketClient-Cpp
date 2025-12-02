@@ -6,7 +6,6 @@
 #include "tls_context.h"
 #include <winsock2.h>
 #include <openssl/ssl.h>
-
 using namespace std;
 
 class WebSocketClient {
