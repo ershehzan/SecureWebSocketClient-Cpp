@@ -6,9 +6,9 @@ using namespace std;
 
 class TLSContext {
 public:
-    TLSContext();
-   ~TLSContext();
-    SSL_CTX* get() const;
+        TLSContext();
+       ~TLSContext();
+        SSL_CTX* get() const;
 
 private:
     SSL_CTX* ctx;
