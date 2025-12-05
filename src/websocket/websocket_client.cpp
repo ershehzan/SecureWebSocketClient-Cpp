@@ -7,6 +7,7 @@
 #include <random>
 #include <chrono>
 #pragma comment(lib, "Ws2_32.lib")
+
 // --- Helper Functions ---
 static string base64_encode_bytes(const unsigned char* input, int len) {
     BIO* b64 = BIO_new(BIO_f_base64());
