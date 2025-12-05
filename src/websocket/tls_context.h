@@ -3,6 +3,7 @@
 #include <openssl/err.h>
 #include <memory>
 using namespace std;
+
 class TLSContext {
 public:
         TLSContext();
