@@ -21,7 +21,6 @@ int main() {
         cout << "[TEST FAILED] No reply\n";
         return 1;
     }
-
     cout << "[TEST PASSED]\n";
     client.close();
     return 0;
