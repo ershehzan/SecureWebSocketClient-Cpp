@@ -11,5 +11,6 @@ public:
         SSL_CTX* get() const;
 
 private:
+
     SSL_CTX* ctx;
 };
