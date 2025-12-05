@@ -25,7 +25,6 @@ public:
 private:
     string receive_text_frame(); // Internal helper
     void listen_loop();          // The function running on the thread
-
     string host;
     string port;
     string path;
