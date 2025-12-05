@@ -2,6 +2,7 @@
 #include "../src/websocket/websocket_client.h"
 #include "../src/websocket/tls_context.h"
 using namespace std;
+
 int main() {
     TLSContext tls;
     WebSocketClient client("echo.websocket.events", "443", "/", tls);
