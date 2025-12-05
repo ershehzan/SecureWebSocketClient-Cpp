@@ -7,7 +7,6 @@
 #include <winsock2.h>
 #include <openssl/ssl.h>
 using namespace std;
-
 class WebSocketClient {
 public:
     WebSocketClient(const string& host,const string& port,const string& path,TLSContext& tls);
