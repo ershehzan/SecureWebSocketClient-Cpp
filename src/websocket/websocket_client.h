@@ -12,7 +12,6 @@ class WebSocketClient {
 public:
     WebSocketClient(const string& host,const string& port,const string& path,TLSContext& tls);
     ~WebSocketClient();
-
     bool connect();
     void start_listening(); // Starts the background thread
     void send_text(const string& msg);
