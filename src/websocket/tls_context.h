@@ -4,7 +4,8 @@
 #include <memory>
 using namespace std;
 
-class TLSContext {
+class TLSContext 
+{
 public:
         TLSContext();
        ~TLSContext();
