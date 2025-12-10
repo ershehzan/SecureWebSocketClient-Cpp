@@ -15,7 +15,8 @@ TLSContext::TLSContext() {
     }
 }
 
-TLSContext::~TLSContext() {
+TLSContext::~TLSContext() 
+{
     if (ctx) SSL_CTX_free(ctx);
 }
 
