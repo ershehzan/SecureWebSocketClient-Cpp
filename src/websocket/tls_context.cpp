@@ -1,7 +1,8 @@
 #include "tls_context.h"
 #include <iostream>
 
-TLSContext::TLSContext() {
+TLSContext::TLSContext() 
+{
     // Initialize OpenSSL
     SSL_library_init();
     SSL_load_error_strings();
