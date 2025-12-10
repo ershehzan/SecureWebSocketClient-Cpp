@@ -9,7 +9,8 @@ TLSContext::TLSContext() {
     
     // Create Context (TLS Client)
     ctx = SSL_CTX_new(TLS_client_method());
-    if (!ctx) {
+    if (!ctx) 
+    {
         cerr << "Failed to create SSL Context" << endl;
     }
 }
