@@ -20,6 +20,7 @@ TLSContext::~TLSContext()
     if (ctx) SSL_CTX_free(ctx);
 }
 
-SSL_CTX* TLSContext::get() const {
+SSL_CTX* TLSContext::get() const 
+{
     return ctx;
 }
